@@ -103,7 +103,7 @@ LOAD_BALANCERS = {
         backends, rand, choices=4
     ),
     "least_requests_1_random": lambda backends, rand: LeastRequestsIndependent(
-        backends, rand, choices=2
+        backends, rand, choices=1
     ),
 }
 
